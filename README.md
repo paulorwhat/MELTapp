@@ -90,7 +90,39 @@ All data is stored in `Documents/MELTData.json` on the device, so your changes w
 
 ---
 
-## File Structure
+## App Icon
+The app uses a **custom icon** reflecting a military/camera/finance theme. A base64-encoded placeholder is provided in the project;
+after decoding and placing it into **Assets.xcassets** → **AppIcon**, you can assign it as the app’s icon.
+Feel free to design or replace with a more refined asset.
+
+---
+
+## Future Improvements
+- **Proper Authentication**  
+  - Implement secure username/password or Single Sign-On for real-world usage.  
+
+- **iCloud Sync**  
+  - Sync JSON data to iCloud or another service, so receipts are available across multiple devices.  
+
+- **PDF/CSV Exports**  
+  - Export a folder’s receipts as a spreadsheet or PDF for official reimbursements.  
+
+- **Enhanced Image Handling**  
+  - Compress or store images externally if large photos become a performance concern.
+
+---
+
+## Licence
+This sample application is provided **as-is** for demonstration purposes.
+You are free to modify or adapt the code for your own projects. Use in production at your own risk.
+
+---
+
+**Enjoy using MELT!** If you have any queries, suggestions, or encounter issues,
+please open a GitHub issue or submit a pull request.
+
+---
+
 ## File Structure
 
 ```plaintext
@@ -126,35 +158,3 @@ MELT/
      ├─ ArmyGreen.colorset/   # Colour asset for the military green theme
      └─ (other images/logos)
 
----
-
-## App Icon
-The app uses a **custom icon** reflecting a military/camera/finance theme. A base64-encoded placeholder is provided in the project;
-after decoding and placing it into **Assets.xcassets** → **AppIcon**, you can assign it as the app’s icon.
-Feel free to design or replace with a more refined asset.
-
----
-
-## Future Improvements
-- **Proper Authentication**  
-  - Implement secure username/password or Single Sign-On for real-world usage.  
-
-- **iCloud Sync**  
-  - Sync JSON data to iCloud or another service, so receipts are available across multiple devices.  
-
-- **PDF/CSV Exports**  
-  - Export a folder’s receipts as a spreadsheet or PDF for official reimbursements.  
-
-- **Enhanced Image Handling**  
-  - Compress or store images externally if large photos become a performance concern.
-
----
-
-## Licence
-This sample application is provided **as-is** for demonstration purposes.
-You are free to modify or adapt the code for your own projects. Use in production at your own risk.
-
----
-
-**Enjoy using MELT!** If you have any queries, suggestions, or encounter issues,
-please open a GitHub issue or submit a pull request.
