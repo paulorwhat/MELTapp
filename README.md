@@ -88,8 +88,10 @@ All data is stored in `Documents/MELTData.json` on the device, so your changes w
 ---
 
 ## File Structure
+## File Structure
 
-MELT/ ├─ Models/ │ ├─ User.swift # Stores user data (username,MELT/
+```plaintext
+MELT/
  ├─ Models/
  │   ├─ User.swift           # Stores user data (username, darkMode, folders)
  │   ├─ Folder.swift         # Contains folder name & array of receipts
@@ -110,8 +112,8 @@ MELT/ ├─ Models/ │ ├─ User.swift # Stores user data (username,MELT/
  │   ├─ FolderListView.swift # Shows all folders & add/delete folder
  │   ├─ AddFolderView.swift  # Form to name a new folder
  │   ├─ FolderDetailView.swift
- │   │   └─ AddReceiptView.swift   # Enter receipt details, pick date & photo
- │   │   └─ ReceiptDetailView.swift
+ │   │   ├─ AddReceiptView.swift   # Enter receipt details, pick date & photo
+ │   │   ├─ ReceiptDetailView.swift
  │   │   └─ ReceiptRowView.swift
  │
  ├─ ImagePicker.swift        # Reusable view for camera or photo library
