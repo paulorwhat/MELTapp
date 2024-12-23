@@ -1,6 +1,8 @@
 # MELT (Military Expense Logging Tool)
 
-**MELT** is an iOS application that enables you to log, organise, and manage military-related expense receipts. This version stores data locally using JSON rather than Core Data, allowing for a simpler and more portable system. Users can create folders containing receipts, attach photos, pick custom dates, delete items, and toggle between light and dark modes.
+**MELT** is an iOS application that enables you to log, organise, and manage military-related expense receipts. 
+This version stores data locally using JSON rather than Core Data, allowing for a simpler and more portable system. 
+Users can create folders containing receipts, attach photos, pick custom dates, delete items, and toggle between light and dark modes.
 
 ---
 
@@ -18,7 +20,8 @@
 ---
 
 ## Overview
-MELT is designed to help service personnel easily record expenses, optionally attach photos for proof, and keep a running total of all claims in a straightforward interface.
+MELT is designed to help service personnel easily record expenses, optionally attach photos for proof, 
+and keep a running total of all claims in a straightforward interface.
 
 ### Technology Stack
 - **SwiftUI** for the front-end user interface  
@@ -126,7 +129,9 @@ MELT/
 ---
 
 ## App Icon
-The app uses a **custom icon** reflecting a military/camera/finance theme. A base64-encoded placeholder is provided in the project; after decoding and placing it into **Assets.xcassets** → **AppIcon**, you can assign it as the app’s icon. Feel free to design or replace with a more refined asset.
+The app uses a **custom icon** reflecting a military/camera/finance theme. A base64-encoded placeholder is provided in the project;
+after decoding and placing it into **Assets.xcassets** → **AppIcon**, you can assign it as the app’s icon.
+Feel free to design or replace with a more refined asset.
 
 ---
 
@@ -146,8 +151,10 @@ The app uses a **custom icon** reflecting a military/camera/finance theme. A bas
 ---
 
 ## Licence
-This sample application is provided **as-is** for demonstration purposes. You are free to modify or adapt the code for your own projects. Use in production at your own risk.
+This sample application is provided **as-is** for demonstration purposes.
+You are free to modify or adapt the code for your own projects. Use in production at your own risk.
 
 ---
 
-**Enjoy using MELT!** If you have any queries, suggestions, or encounter issues, please open a GitHub issue or submit a pull request.
+**Enjoy using MELT!** If you have any queries, suggestions, or encounter issues,
+please open a GitHub issue or submit a pull request.
