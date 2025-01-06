@@ -18,10 +18,8 @@ struct MELTApp: App {
                 .environmentObject(viewModel)
                 // If the user is logged in, we check their darkMode setting
                 .preferredColorScheme(viewModel.currentUser?.darkMode == true ? .dark : .light)
-                // Give the whole app a green accent (replace with your favourite military colour)
+                // Give the whole app a green accent
                 .accentColor(Color("ArmyGreen")) 
-                // Note: You must define "ArmyGreen" in Assets.xcassets 
-                // OR use a custom Color(red:...,green:...,blue:...)
         }
     }
 }

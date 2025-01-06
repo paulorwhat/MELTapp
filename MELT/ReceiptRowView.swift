@@ -41,9 +41,7 @@ struct ReceiptRowView: View {
             }
         }
         .padding(.vertical, 4)
-        // Maybe give a slight greenish background or border
-        //.background(Color("ArmyGreen").opacity(0.05))
-        //.cornerRadius(8)
+        
     }
 }
 

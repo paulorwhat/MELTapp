@@ -28,7 +28,7 @@ struct CreateAccountView: View {
                 }
                 Section {
                     Button("Create Account") {
-                        // In a real app, you'd verify passwords match
+                        
                         viewModel.createAccount(username: username)
                         if viewModel.isLoggedIn {
                             presentationMode.wrappedValue.dismiss()

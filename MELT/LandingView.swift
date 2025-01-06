@@ -16,14 +16,14 @@ struct LandingView: View {
     var body: some View {
         NavigationView {
             VStack(spacing: 20) {
-                // Simple "logo" with a military-themed system icon
-                Image(systemName: "scope") // or "shield.lefthalf.filled", etc.
+                
+                Image(systemName: "scope")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 80, height: 80)
                     .padding()
                     .foregroundColor(.primary)
-                // For a “money + camera” vibe, you might do a custom image or a combined SF Symbol
+                
 
                 Text("MELT")
                     .font(.largeTitle)

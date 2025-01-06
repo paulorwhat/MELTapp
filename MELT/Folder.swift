@@ -21,7 +21,7 @@ struct Folder: Identifiable, Codable, Equatable {
     }
 }
 
-// A convenience computed property to calculate the total of all receipts in this folder
+// calculate the total of all receipts in this folder
 extension Folder {
     var total: Double {
         receipts.reduce(0) { $0 + $1.amount }
